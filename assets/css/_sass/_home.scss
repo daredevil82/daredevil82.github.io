@@ -16,6 +16,13 @@
    padding: 10px;
    margin-top: 120px;
 }
+
+@media (max-width: $tablet-width) {
+	.featured-posts h2 span {
+		margin-top: 75px;
+	}
+}
+
 .featured-posts span a {
   color: white;
 }
